@@ -57,8 +57,7 @@ module.exports = {
           '1500', 
           "$accounts[0]", 
           "$PictosisToken",
-          '125000000000000000000000000', // 125MM
-          '500000000000000000000000000', // 500MM
+          '625000000000000000000000000', // 500MM
           '100000000000000000000' // 100 eth
         ],
         onDeploy: ['PictosisToken.methods.addMinter("$PictosisCrowdsale").send()']
